@@ -1,0 +1,38 @@
+.name {
+  color: #f77f00 !important;
+}
+.bg {
+  background-color: #1c2e4a;
+}
+.sec1 {
+  max-height: 700px;
+}
+.sec1 a button,
+.message button {
+  padding: 0 0 0 1rem;
+  border: 1px solid rgb(186, 186, 18);
+  border-radius: 2.5rem;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 1s all ease-in-out;
+  z-index: 1;
+}
+.sec1 a button:hover,
+.message button:hover {
+  border: 1px solid rgb(186, 186, 18);
+  background-color: rgb(186, 186, 18);
+}
+.sec1 a {
+  text-decoration: none;
+  padding-top: 0;
+}
+.sec1 a button i,
+.message button i {
+  margin-left: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(186, 186, 18);
+  border-radius: 50%;
+  background-color: rgb(186, 186, 18);
+}
